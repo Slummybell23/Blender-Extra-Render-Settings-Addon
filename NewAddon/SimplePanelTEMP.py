@@ -3,11 +3,11 @@ import bpy
 class SelectPanal(bpy.types.Panel):
     """Creates a Panel in the Object properties window"""
     #BL lable is the side bar lable.
-    bl_label = "Extra Render Settings!!!"
+    bl_label = "After Render Settings"
     bl_idname = "OBJECT_PT_ERsettings"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = "EXTRA RENDER SETTINGS"
+    bl_category = "Extra Render Settings"
 
     def draw(self, context):
         #Draws all the icons
